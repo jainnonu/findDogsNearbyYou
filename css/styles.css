@@ -1,0 +1,182 @@
+.title{
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+body{
+  font-family: "Montserrat"
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2.5;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+p{
+  font-size: .9rem;
+  color: #b0b0b0;
+}
+
+.container-fluid{
+  padding: 3% 7% 7%;
+}
+
+.btn-download{
+  margin: 2%;
+}
+
+.navbar{
+  padding: 0 0 3.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 1.5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.phone-image{
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.features{width: 100%;
+  position: relative;
+  padding: 7% 10%;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.feature-text{
+  text-align: center;
+}
+
+.icons{
+  font-size: 3rem;
+  color: #f2526b;
+}
+
+.icons:hover{
+  color: #fc8194;
+}
+
+.testimonials{
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #f2526b;
+  color: #ffffff;
+}
+
+.testimonials img{
+  width: 10%;
+  border-radius: 50%;
+  margin: 1.1rem;
+}
+
+.press{
+  background-color: #f2526b;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 30px;
+}
+
+.carousel-item{
+    padding: 7% 10%;
+}
+
+.pricing{
+  padding: 9%;
+  text-align: center;
+}
+
+ .pricing-box{
+   padding: 5% 3%;
+ }
+
+.cta{
+  padding: 7% 10%;
+  background-color: #f2526b;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cta h3{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.footer{
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.footer-icon{
+  font-size: 1.5rem;
+  margin: 15px 5px;
+  padding: 0.5%;
+  display: inline-block;
+  width: 40px;
+}
+
+.ion-social-facebook:hover{
+  color: #fff;
+  background-color: #4267B2;
+}
+
+.ion-social-googleplus:hover{
+  color: #fff;
+  background-color: #db4a39;
+}
+
+.ion-social-instagram:hover{
+  color: #fff;
+  background-color: #bc2a8d;
+}
+
+.ion-social-twitter:hover{
+  color: #fff;
+  background-color: #1DA1F2;
+}
+
+@media (max-width: 990px){
+  .title{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  .phone-image{
+    position: relative;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
